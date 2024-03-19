@@ -50,6 +50,7 @@
 
 ``````
 <H3>Program:</H3>
+```
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -121,7 +122,7 @@ def get_neighbors(v):
         return None
 def heuristic(n):
     return H_dist[n]
-
+```
 
 #Describe your graph here
 '''Graph_nodes = {
